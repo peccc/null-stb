@@ -1,6 +1,6 @@
 ## Null Pointer Dereference vulnerability in nothings/stb
 
-​		nothings, an image processing library, has a __Null Pointer Dereference__ vulnerability in the stbi__convert_format function. This function is called in stbi\_\_pic_load and is used to parse files in the pic image format. And stbi\_\_pic_load  is called by stbi_load_from_memory.
+​		Nothings/stb, an image processing library, has a __Null Pointer Dereference__ vulnerability in the stbi__convert_format function,  stb_image.h  2.28. This function is called in stbi\_\_pic_load and is used to parse files in the pic image format. And stbi\_\_pic_load  is called by stbi_load_from_memory.
 
 ### Vulnerability causes
 
