@@ -123,7 +123,7 @@ static unsigned char *stbi__convert_format(unsigned char *data, int img_n, int r
 
 Denial of service attack
 
-![image-20230919175104321](C:\Users\hp\AppData\Roaming\Typora\typora-user-images\image-20230919175104321.png)
+![image-20230919175104321.png](https://github.com/peccc/null-stb/blob/main/image/image-20230919175104321.png)
 
 ​	Here the "__result__" variable is assigned as a null pointer.
 
