@@ -101,9 +101,9 @@ static unsigned char *stbi__convert_format(unsigned char *data, int img_n, int r
 
 ​	The environment is shown below.
 
-![image-20230913154142754](C:\Users\hp\AppData\Roaming\Typora\typora-user-images\image-20230913154142754.png)
+![image-20230919222702892](C:\Users\hp\AppData\Roaming\Typora\typora-user-images\image-20230919222702892.png)
 
-​	In the "example" folder, use the following command.
+​	In the "null_example" folder, use the following command.
 
 ```shell
 ./build.sh
