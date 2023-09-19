@@ -101,7 +101,7 @@ static unsigned char *stbi__convert_format(unsigned char *data, int img_n, int r
 
 ​	The environment is shown below.
 
-![image-20230919222702892](C:\Users\hp\AppData\Roaming\Typora\typora-user-images\image-20230919222702892.png)
+![image-20230919222702892.png](https://github.com/peccc/null-stb/blob/main/image/image-20230919222702892.png)
 
 ​	In the "null_example" folder, use the following command.
 
@@ -115,7 +115,7 @@ static unsigned char *stbi__convert_format(unsigned char *data, int img_n, int r
 ./example sample
 ```
 
-![image-20230919175732420](C:\Users\hp\AppData\Roaming\Typora\typora-user-images\image-20230919175732420.png)
+![image-20230919175732420.png](https://github.com/peccc/null-stb/blob/main/image/image-20230919175732420.png)
 
 ​	We can see the "core dumped".
 
@@ -127,7 +127,7 @@ Denial of service attack
 
 ​	Here the "__result__" variable is assigned as a null pointer.
 
-![image-20230919175243072](C:\Users\hp\AppData\Roaming\Typora\typora-user-images\image-20230919175243072.png)
+![image-20230919175243072.png](https://github.com/peccc/null-stb/blob/main/image/image-20230919175243072.png)
 
 ​	Here the null pointer is used as the base address, at which point an error occurs.
 
